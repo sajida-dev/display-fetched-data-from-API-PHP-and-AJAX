@@ -148,10 +148,10 @@
                 tableBody.empty(); 
                 users.forEach(function(user) {
                     let row = `
-                        <tr class="bg-white border-b  hover:bg-gray-50 ">
+                        <tr class="bg-white border-b ">
                             <td class="w-4 p-4">
                                 <div class="flex items-center">
-                                    <input id="checkbox-table-search-${user.id}" type="checkbox" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500  focus:ring-2 " value="${user.id}">
+                                    <input id="checkbox-table-search-${user.id}" type="checkbox" class="w-4 h-4 text-blue-600  border-gray-300 rounded focus:ring-blue-500  focus:ring-2 " value="${user.id}">
                                     <label for="checkbox-table-search-${user.id}" class="sr-only">checkbox</label>
                                 </div>
                             </td>
